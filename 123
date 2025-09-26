@@ -1,0 +1,19 @@
+SELECT * FROM airports_data
+WHERE city ->> 'ru' = 'Москва';
+
+SELECT * FROM aircrafts_data
+WHERE model ->> 'en' LIKE 'Airbus%'
+ORDER BY range;
+
+SELECT 
+  f.flight_no,
+  f.departure_airport,
+  f.arrival_airport,
+  a.airport_name->>'ru',
+  f.actual_arrival
+FROM flights as f
+JOIN airports_data as a 
+    ON a.airport_code = f.departure_airport
+WHERE status = 'Arrived'
+ORDER BY f.actual_arrival DESC
+LIMIT 20;
