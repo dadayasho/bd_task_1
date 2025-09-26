@@ -1,0 +1,3 @@
+SELECT * FROM aircrafts_data
+WHERE model->>'en' LIKE 'Airbus%'
+ORDER BY range;

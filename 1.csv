@@ -1,0 +1,4 @@
+"airport_code","airport_name","city","coordinates","timezone"
+"SVO","{""en"": ""Sheremetyevo International Airport"", ""ru"": ""Шереметьево""}","{""en"": ""Moscow"", ""ru"": ""Москва""}","(37.4146,55.972599)","Europe/Moscow"
+"VKO","{""en"": ""Vnukovo International Airport"", ""ru"": ""Внуково""}","{""en"": ""Moscow"", ""ru"": ""Москва""}","(37.2615013123,55.5914993286)","Europe/Moscow"
+"DME","{""en"": ""Domodedovo International Airport"", ""ru"": ""Домодедово""}","{""en"": ""Moscow"", ""ru"": ""Москва""}","(37.90629959106445,55.40879821777344)","Europe/Moscow"
